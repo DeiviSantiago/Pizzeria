@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class SistemaPizzas {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println(" ======= BIENVENIDO A PIZZANTI'S ======= ");
         System.out.println("Elija el tamaño de la pizza: Mediana, Grande, Extragrande");
         String tamaño = scanner.nextLine().trim();
 
