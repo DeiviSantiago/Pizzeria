@@ -17,7 +17,7 @@ abstract class IngredienteDecorador implements Pizza {
 class Queso extends IngredienteDecorador {
     public Queso(Pizza pizza) { super(pizza); }
     @Override
-    public String getDescription() { return pizza.getDescription() + "con Queso"; }
+    public String getDescription() { return pizza.getDescription() + ", Queso"; }
     @Override
     public int getCost() { return pizza.getCost() + 5000; }
 }
@@ -25,7 +25,7 @@ class Queso extends IngredienteDecorador {
 class Pepperoni extends IngredienteDecorador {
     public Pepperoni(Pizza pizza) { super(pizza); }
     @Override
-    public String getDescription() { return pizza.getDescription() + "con Pepperoni"; }
+    public String getDescription() { return pizza.getDescription() + ", Pepperoni"; }
     @Override
     public int getCost() { return pizza.getCost() + 7000; }
 }
@@ -33,7 +33,7 @@ class Pepperoni extends IngredienteDecorador {
 class Aceitunas extends IngredienteDecorador {
     public Aceitunas(Pizza pizza) { super(pizza); }
     @Override
-    public String getDescription() { return pizza.getDescription() + "con Aceitunas"; }
+    public String getDescription() { return pizza.getDescription() + ", Aceitunas"; }
     @Override
     public int getCost() { return pizza.getCost() + 4000; }
 }
@@ -41,7 +41,7 @@ class Aceitunas extends IngredienteDecorador {
 class Tocineta extends IngredienteDecorador {
     public Tocineta(Pizza pizza) { super(pizza); }
     @Override
-    public String getDescription() { return pizza.getDescription() + "con Tocineta"; }
+    public String getDescription() { return pizza.getDescription() + ", Tocineta"; }
     @Override
     public int getCost() { return pizza.getCost() + 6000; }
 }
