@@ -1,3 +1,8 @@
+public interface Pizza {
+    String getDescription();
+    int getCost(); 
+}
+
 public class PizzaBase implements Pizza {
     private String tamaño;
     private int costo;
