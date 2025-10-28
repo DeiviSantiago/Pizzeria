@@ -1,0 +1,15 @@
+public class Queso extends IngredienteDecorador {
+    public Queso(Pizza pizza) {
+        super(pizza);
+    }
+
+    @Override
+    public String getDescription() {
+        return pizza.getDescription() + ", Queso";
+    }
+
+    @Override
+    public int getCost() {
+        return pizza.getCost() + 5000; // precio queso extra
+    }
+}

@@ -15,7 +15,7 @@ public class SistemaPizzas {
             System.out.println("O escriba FIN para terminar y mostrar la pizza.");
             String entrada = scanner.nextLine().trim();
 
-            if (entrada.equalsIgnoreCase("FIN")) {
+            if (entrada.equaalsIgnoreCase("FIN")) {
                 break;
             }
 
