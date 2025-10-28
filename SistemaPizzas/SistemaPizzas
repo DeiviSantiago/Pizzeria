@@ -40,7 +40,7 @@ public class SistemaPizzas {
         }
 
         System.out.println("Tu pizza: " + miPizza.getDescription());
-        System.out.println("Costo total: $" + miPizza.getCost() + " COP");
+        System.out.println("Costo total: $" + miPizza.getCost());
         scanner.close();
     }
 }
